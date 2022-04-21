@@ -27,7 +27,6 @@ const model = database.define("InstitutionType", {
 });
 
 const typeDefs = gql`
-
     scalar Date
 
     type InstitutionType {

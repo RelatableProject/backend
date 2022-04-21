@@ -39,6 +39,11 @@ const typeDefs = gql`
         isTeacher: Boolean!
         isAdministrative: Boolean!
     }
+    
+    input RoleInput {
+        id: Int!
+        name: String
+    }
 
     extend type Query {
         roles: [Role]
